@@ -9,15 +9,19 @@
   <meta name="description" content="The HTML5 Herald">
   <meta name="author" content="SitePoint">
 
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/locale/tr.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
 </head>
 
 <body>
-  <ul id="newsList">
-
-  </ul>
+    <div>
+        <h1>No. of Articles: <span id="number-news"></span></h1>
+    </div>
+      <div id="newsList"></div>
+      <div id="load-more" ></div>
+            <div>
+                <button id="load-more-btn" onclick="getShowDataMore()">Load More</button>
+            </div>
   <script src="harold.js"></script>
 </body>
 
